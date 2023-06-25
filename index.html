@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,139 +11,169 @@
     <div class="container">
         <div class="sidebar">
             <div class="logo">
-                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/laptop-metrics.png" alt="laptop-metrics"/>
-                <h1>Dashboard</h1>
+                <img id="logo" width="50" height="50" src="https://img.icons8.com/ios-filled/50/laptop-metrics.png" alt="laptop-metrics"/>
+                <h1 class="logo-text">Dashboard</h1>
             </div>
             <div class="menu-one">
                 <ul>
-                    <li>Home</li>
-                    <li>Profle</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li>
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/home.png" alt="home"/>
+                        Home</li>
+                    <li>
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/name.png" alt="name"/>
+                        Profle</li>
+                    <li>
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/imessage.png" alt="imessage"/>
+                        Messages</li>
+                    <li>
+                        <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/time-machine.png" alt="time-machine"/>
+                        History</li>
+                    <li>
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/tasks.png" alt="tasks"/>
+                        Tasks</li>
+                    <li>
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/people-working-together.png" alt="people-working-together"/>
+                        Communities</li>
                 </ul>
             </div>
             <div class="menu-two">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li>
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/settings.png" alt="settings"/>
+                        Settings</li>
+                    <li>
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/settings.png" alt="settings"/>
+                        Support</li>
+                    <li>
+                        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/privacy.png" alt="privacy"/>
+                        Privacy</li>
                 </ul>
             </div>
+
         </div>
         <div class="header">
             <div class="header-one">
                 <div class="search-bar">
                     <div class="icon">
-                        <i><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/></i>    
+                        <i><img id="search-icon" width="50" height="50" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/></i>    
                     </div>
                     <input type="search" name="search">
                 </div>
                 <div class="navbar1">
-                    <ul class="navbar">
-                        <li><a href="#">Notification</a></li>
+                    <ul class="navone navbar">
+                        <li><a href="#"><img id="notification" width="24" height="24" src="https://img.icons8.com/material-sharp/24/appointment-reminders--v1.png" alt="appointment-reminders--v1"/></a></li>
                         <li><a href="#">
-                            <img id="user-profile" src="NOLIMITS-LOGO.png" alt="User Profile">
+                            <img class="upone" id="user-profile" src="NOLIMITS-LOGO.png" alt="User Profile">
                         </a></li>
-                        <li><a href="#">User Name</a></li>
+                        <li id="user-name"><a href="#">User Name</a></li>
                     </ul>
                 </div>
             </div>
             <div class="header-two">
                 <div class="navbar2">
-                    <ul class="navbar">
-                        <li> 
+                    <ul class="navtwo ">
+                        <li id="userli"> 
                             <a href="#">
                                 <img id="user-profile" src="NOLIMITS-LOGO.png" alt="User Profile">
                          
                             </a>
                         </li>
-                        <li>Hi there,<p><a href="#">User name</a></p></li>
+                        <li><span>Hi there,</span><p><a href="#">User name (@)</a></p></li>
                         
                         
                     </ul>
-                    <ul class="navbar">
-                        <li><a href="#">New</a></li>
-                        <li><a href="#">Upload</a></li>
-                        <li><a href="#">Share</a></li>
+                    <ul class="navbar2 btn">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="main-content">
+            
             <div class="projects">
                 <h2>Your Projects</h2>
                 <div class="projects-grid">
-              
-                    <div class="super-cool">
-                        <h3>Super Cool Project</h3>
-                        <p>Grid CSS revolutionized web design, enabling responsive layouts with ease. It simplifies alignment and adaptability across devices, delivering consistent user experiences.</p>
-                    </div>
-                    <div class="less-cool">
-                        <h3>Less Cool Project</h3>
-                        <p>Grid CSS handles complex layouts effortlessly, allowing designers to bring creative visions to life, whether it's magazines, mosaics, or product grids.</p>
-                    </div>
-                    <div class="impossible-app">
-                        <h3>Impossible App</h3>
-                        <p>With versatile features like track sizing, grid gaps, and auto-placement, Grid CSS offers customization and fluid content reordering.</p>
-                    </div>
-                    <div class="easy-app">
-                        <h3>Easy Peasy App</h3>
-                        <p>Grid CSS accommodates both 2D and 1D layouts, expanding design possibilities and enabling dynamic arrangements.</p>
-                    </div>
-                    <div class="ad-blocker">
-                        <h3>Ad Blocker</h3>
-                        <p>Creating responsive designs is simplified with Grid CSS, aligning and positioning elements using media queries for seamless adaptation.</p>
-                    </div>
-                    <div class="money-maker">
-                        <h3>Money Maker</h3>
-                        <p>Grid CSS is an Essential tool for modern web development, embraced for its intuitive syntax, extensive features, and optimal user experiences across devices.</p>
-                    </div>
+                   
+                        <div class="cards" class="super-cool">
+                            <h3>Super Cool Project</h3>
+                            <p>Grid CSS revolutionized web design, enabling responsive layouts with ease. It simplifies alignment and adaptability across devices, delivering consistent user experiences.</p>
+                        </div>
+                        <div class="cards" class="less-cool">
+                            <h3>Less Cool Project</h3>
+                            <p>Grid CSS handles complex layouts effortlessly, allowing designers to bring creative visions to life, whether it's magazines, mosaics, or product grids.</p>
+                        </div>
+                        <div class="cards" class="impossible-app">
+                            <h3>Impossible App</h3>
+                            <p>With versatile features like track sizing, grid gaps, and auto-placement, Grid CSS offers customization and fluid content reordering.</p>
+                        </div>
+                        <div class="cards" class="easy-app">
+                            <h3>Easy Peasy App</h3>
+                            <p>Grid CSS accommodates both 2D and 1D layouts, expanding design possibilities and enabling dynamic arrangements.</p>
+                        </div>
+                        <div class="cards" class="ad-blocker">
+                            <h3>Ad Blocker</h3>
+                            <p>Creating responsive designs is simplified with Grid CSS, aligning and positioning elements using media queries for seamless adaptation.</p>
+                        </div>
+                        <div class="cards" class="money-maker">
+                            <h3>Money Maker</h3>
+                            <p>Grid CSS is an Essential tool for modern web development, embraced for its intuitive syntax, extensive features, and optimal user experiences across devices.</p>
+                        </div>
+
                 </div>
             </div>
-            <div class="announcements">
-                <h2>announcements</h2>
-                <div class="site-maint">
-                    <h4>Site Maintenenace</h4>
-                    <p>Flexbox revolutionized web layout, enabling flexible and responsive designs with ease.</p>
+            <div class="right-sidebar">
+                <div class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="announcements-divs">
+                        <div class="ann-div" class="site-maint">
+                            <h4>Site Maintenenace</h4>
+                            <p>Flexbox revolutionized web layout, enabling flexible and responsive designs with ease.</p>
+                        </div>
+                        <div class="ann-div" class="community">
+                            <h4>Community Share Day</h4>
+                            <p>Flexbox simplifies alignment and distribution, effortlessly centering elements and controlling spacing for visually pleasing layouts.</p>
+                        </div>
+                        <div class="ann-div" id="privacy-police">
+                            <h4>Updated Privacy Policy</h4>
+                            <p>Flexbox offers exceptional flexibility for responsive design, allowing items to adapt and flow based on available space.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="community">
-                    <h4>Community Share Day</h4>
-                    <p>Flexbox simplifies alignment and distribution, effortlessly centering elements and controlling spacing for visually pleasing layouts.</p>
-                </div>
-                <div class="privacy-police">
-                    <h4>Updated Privacy Policy</h4>
-                    <p>Flexbox offers exceptional flexibility for responsive design, allowing items to adapt and flow based on available space.</p>
-                </div>
-            </div>
-            <div class="trending">
-                <h2>Trending</h2>
-                <div class="first-user">
-                    <img src="" alt="">
-                    <p>@user</p>
-                    <p>User Name</p>
-                </div>
-                <div class="second-user">
-                    <img src="" alt="">
-                    <p>@user</p>
-                    <p>User Name</p>
-                </div>
-                <div class="third-user">
-                    <img src="" alt="">
-                    <p>@user</p>
-                    <p>User Name</p>
-                </div>
-                <div class="fourth-user">
-                    <img src="" alt="">
-                    <p>@user</p>
-                    <p>User Name</p>
+                <div class="trending">
+                    <h2>Trending</h2>
+                   <div class="trending-divs">
+                    <div class="trend-div" class="first-user">
+                        <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/circled-user-male-skin-type-7--v1.png" alt="circled-user-male-skin-type-7--v1"/></a>
+                        <div class="info"><p>@user</p>
+                            <p>User Name</p></div>
+                    </div>
+                    <div  class="trend-div" class="second-user">
+                        <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/guest-male--v1.png" alt="guest-male--v1"/></a>
+                        <div class="info"><p>@user</p>
+                            <p>User Name</p></div>
+                    </div>
+                    <div class="trend-div" class="third-user">
+                       <a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/name.png" alt="name"/></a> 
+                        <div class="info"><p>@user</p>
+                            <p>User Name</p></div>
+                    </div>
+                    <div class="trend-div" id="fourth-user">
+                        <a href="#"><img width="48" height="48" src="https://img.icons8.com/doodle/48/user-female-red-hair.png" alt="user-female-red-hair"/>                        </a>
+                        <div class="info">
+                            <p>@user</p>
+                        <p>User Name</p>
+                        </div>
+                    </div>
+                   </div>
                 </div>
             </div>
         </div>
     </div>
+     <div class="credit">    <p id="credit" class="icons">Icons by <a href="https://icons8.com">Icons8</a></p>
+     </div>
 
-
-    <a href="https://icons8.com/icon/JtOasgwoFNyW/dashboard">Dashboard</a>, and <a  href="https://icons8.com/icon/7695/search">Search</a> icons by <a href="https://icons8.com">Icons8</a>.
     <script src="script.js"></script>
 </body>
+</html>
